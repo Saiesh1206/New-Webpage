@@ -11,10 +11,10 @@ def load_lottie_file(filepath: str):
 lottie_animation = load_lottie_file("Animation.json")
 
 # Set page configuration
-st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="Saiesh Chikne", page_icon=":study_men:", layout="wide")
 
 # Header section
-st.subheader("Hi, I am Saiesh :wave:")
+st.subheader("Hi, I am Saiesh Chikne :wave:")
 st.title("I am an Electronics Engineer from KJ SOMAIYA COLLEGE OF ENGINEERING ")
 st.write("Welcome to my webpage!")
 
@@ -38,7 +38,8 @@ st.header("Projects")
 st.write("""
 - Project 1: Smart Irrigation System
 - Project 2: Smart Switch Board for home automation
-- Project 3: Smart wearable vest for Industrial Workers
+- Project 3: Smart Blind Stick
+- Project 4: Smart wearable vest for Industrial Workers
 """)
 
 st.header("Work Experience")
@@ -47,6 +48,11 @@ st.write("""
   Assisted in the design and testing of electronic circuits for consumer electronics.
   Performed SMD components soldering, machine wiring and product finishing.
   Conducted quality checks and developed technical reports and presented findings to senior engineers.
+- Intern at DMM Technovatives,[Mumbai]:
+  Helped in PCB Designing and Fabrication, Soldering of SMD components.
+  Product management, planning and finishing.
+  Interfaced with various Industrial sensors.
+
 """)
 
 st.header("Skills")
